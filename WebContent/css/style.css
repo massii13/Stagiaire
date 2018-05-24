@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+body {
+	background:
+		url(http://agir-pour-le-climat.lefigaro.fr/partners/tkp/cacheDirectory/HTMLcontributions/img/4785_UNE_ENGIE.jpeg?date=2015-12-23-17:20:00)
+		no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	border: 10px solid #000000;
+	color: #400080;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: red;
+	background-image: #00ff40;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+#moi div {
+	background-color: #c0c0c0;
+	color: #fff;
+	padding: 15px;
+	border-bottom: 5px solid red;
+	margin-bottom: 15px;
+}
+
+.morph div img {
+  width: 150px;
+  height: 150px;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-left: auto;
+	margin-right: auto;
+}
+ 
+.morph div:hover img {
+  width: 150px; /* on affiche l'image au carré */
+  height: 150px;
+  border-radius: 50%;  /* on arrondit l'image */
+  -webkit-transform: rotate(360deg); /* rotation de l'image */
+  transform: rotate(360deg);
+}
+
+
+
+# monlogo img{
+	
+  
+	-webkit-transition :-webkit-transform .9s; // Chrome Safari 
+	-moz-transition :-moz-transform .9s; //	Mozilla 
+	-o-transition: -o-transform .9s; //	OpÃ©ra 
+	-ms-transition: -ms-transform .9s; //IE 
+	-transition: transform .9s;
+}
+
+#monlogo  img:hover {
+	-webkit-transform: rotate(540deg);
+	-moz-transform: rotate(540deg);
+	-o-transform: rotate(540deg);
+	-ms-transform: rotate(540deg);
+	-transform: rotate(540deg);
+}
+
+
+a.lien {
+ 	text-align: center; 
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto
+}
+
+th {
+	border: solid red;
+	background-color: #808080;
+	width: auto;
+}
+
+td {
+	border: solid red;
+	background-color: #80ffff;
+	width: auto;
+	text-align: center;
+}
+
+caption {
+	font-weight: bold
+}
